@@ -11,3 +11,10 @@ vim.opt.expandtab = true
 vim.opt.number = true
 vim.opt.relativenumber = true
 vim.opt.cursorline = true
+
+-- Clip Board
+vim.opt.clipboard = "unnamedplus"
+
+
+--Completions
+vim.opt.swapfile = false
