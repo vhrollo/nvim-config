@@ -1,33 +1,59 @@
 # Keybinds
-- SuperKey: Space
+
+> **SuperKey:** Space
+
+## Normal Vim Keybinds
+| Action | Key |
+|--------|-----|
+| Remove highlights | Super + h |
+| Move panes | Ctrl + hjkl |
 
 ## Telescope
-- Find files: Ctrl + P
-- Live grep: <s> fg
-    - Requires "ripgrep"
-- Old  files: <s><s>
+| Action | Key |
+|--------|-----|
+| Find files | Ctrl + P |
+| Live grep (requires ripgrep) | Super + f g |
+| Recent files | Super + Super |
 
-## Tree
-- Open FileSystem: Ctrl + N
-    - Will close automatically
-- Open buffer:   <s>bf
+## File Explorer (nvim-tree)
+| Action | Key |
+|--------|-----|
+| Toggle filesystem | Ctrl + N |
+| Toggle current buffer in tree | Super + b f |
 
-## Lsp
-- Open docs: Shift + K
-- Open physical definition: <s>gd
-- Open References: <s>gr
-- Open Current Code actions: <s>ca
+## LSP
+| Action | Key |
+|--------|-----|
+| Hover documentation | Shift + K |
+| Go to definition | Super + g d |
+| List references | Super + g r |
+| Code actions | Super + c a |
 
+## null-ls Formatting
+| Action | Key |
+|--------|-----|
+| Format buffer | Shift + g f |
 
-## None Ls
-*format automatically*
-- format given lang server: <s>gf
-
-## Completions
-- Confirm: Ctrl + Space or CR
-- Next: <tab> or Ctrl + e
-- back: Shift + <tab> or Ctrl + b
+## Completion (nvim-cmp)
+| Action | Key |
+|--------|-----|
+| Confirm selection | Ctrl + Space / Enter |
+| Next item | Tab / Ctrl + e |
+| Previous item | Shift + Tab / Ctrl + b |
 
 ## Gitsigns
-- Check differences on line: <s>gp
-- Gitblame: <s>gt
+| Action | Key |
+|--------|-----|
+| Preview diff hunk | Super + g p |
+| Git blame current line | Super + g t |
+
+## Git Conflict
+
+| Action | Keybinding |
+|--------|------------|
+| Jump to next conflict | `cn` |
+| Jump to previous conflict | `cp` |
+| Keep **our** changes | `co` |
+| Keep **their** changes | `ct` |
+| Keep **both** changes | `cb` |
+| Discard **both** changes | `c0` |
