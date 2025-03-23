@@ -1,3 +1,6 @@
+# Nvim config that i use
+*nvim should be built with 9.4 or higher*
+
 # Keybinds
 
 > **SuperKey:** Space
