@@ -18,17 +18,6 @@ vim.opt.clipboard = "unnamedplus"
 --Completions
 vim.opt.swapfile = false
 
---KeyBinds
-vim.keymap.set('n', '<c-k>', ':wincmd k<CR>')
-vim.keymap.set('n', '<c-j>', ':wincmd j<CR>')
-vim.keymap.set('n', '<c-h>', ':wincmd h<CR>')
-vim.keymap.set('n', '<c-l>', ':wincmd l<CR>')
-
-vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')
-
--- Make jk exit insert mode
-vim.keymap.set("i", "jk", "<Esc>", { noremap = true, silent = true })
-
 -- Optional: shorten the timeout so jk feels snappy
 vim.o.timeout = true
 vim.o.timeoutlen = 300
